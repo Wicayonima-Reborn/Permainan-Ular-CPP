@@ -1,60 +1,70 @@
 # Snake Game in C++ (Windows & Linux)
 
-## Deskripsi
-Ini adalah game ular sederhana yang dibuat menggunakan bahasa pemrograman C++. Game ini dapat dimainkan di platform **Windows** dan **Linux**.
+## Description
+This is a simple snake game created using the C++ programming language. The game can be played on both **Windows** and **Linux** platforms.
 
-## Persyaratan Sistem
-- **Windows**: Windows 7 atau lebih baru
-- **Linux**: Ubuntu atau distribusi Linux lainnya
+## System Requirements
+- **Windows**: Windows 7 or newer  
+- **Linux**: Ubuntu or other Linux distributions
 
-## Menginstal Compiler C++
+## Installing a C++ Compiler
 
-### Untuk Windows
+### For Windows
 1. **Install MinGW**:
-   - Unduh MinGW dari situs resminya [MinGW Download](https://sourceforge.net/projects/mingw-w64/).
-   - Pilih versi 64-bit dan ikuti petunjuk instalasi.
-   - Tambahkan folder `bin` dari MinGW ke dalam **Path Environment Variable** (misalnya `C:\MinGW\bin`).
-   
-2. **Install Code Editor**:
-   - Gunakan editor kode seperti **Visual Studio Code** atau **Code::Blocks**. Visual Studio Code dapat diunduh di [sini](https://code.visualstudio.com/).
-   
-3. **Verifikasi Instalasi**:
-   - Buka Command Prompt dan ketikkan perintah:
+   - Download MinGW from the official website: [MinGW Download](https://sourceforge.net/projects/mingw-w64/).
+   - Choose the 64-bit version and follow the installation instructions.
+   - Add the `bin` folder from MinGW to your **Path Environment Variable** (e.g., `C:\MinGW\bin`).
+
+2. **Install a Code Editor**:
+   - Use a code editor like **Visual Studio Code** or **Code::Blocks**. You can download Visual Studio Code [here](https://code.visualstudio.com/).
+
+3. **Verify Installation**:
+   - Open Command Prompt and type:
      ```bash
      g++ --version
      ```
-     Jika instalasi berhasil, Anda akan melihat versi dari g++ yang terinstal.
+     If installed correctly, it will show the installed version of g++.
 
-### Untuk Linux
+### For Linux
 1. **Install GCC**:
-   - Di terminal, jalankan perintah berikut untuk menginstal GCC (GNU Compiler Collection):
+   - Open the terminal and run the following commands:
      ```bash
      sudo apt update
      sudo apt install build-essential
      ```
-   
-2. **Verifikasi Instalasi**:
-   - Setelah instalasi selesai, pastikan GCC sudah terinstal dengan perintah:
+
+2. **Verify Installation**:
+   - After installation, check if GCC is installed by running:
      ```bash
      g++ --version
      ```
 
-## Cara Menjalankan Game
+## How to Run the Game
 
-### Untuk Windows
-1. Setelah Anda menginstal MinGW dan editor kode, buka **Command Prompt**.
-2. Navigasi ke folder tempat Anda menyimpan file game `snake_game.cpp`.
-3. Kompilasi program dengan perintah:
+### For Windows
+1. After installing MinGW and a code editor, open **Command Prompt**.
+2. Navigate to the folder where the game file `snake_game.cpp` is located.
+3. Compile the program using:
    ```bash
    g++ ularwindows.cpp -o snake_game.exe
-4. ```bash
-   .\snake_game.exe
-
-### Untuk Linux
-1. Setelah menginstal Compiler C++ buka **Terminal**
-2. Navigasi ke folder tempat Anda menyimpan file game `snake_game.cpp`.
-3. Kompilasi program dengan perintah:
+   ```
+4. Run the game:
    ```bash
-   g++ ular.cpp -o snake_game.exe
-4. ```bash
-   .\snake_game
+   .\snake_game.exe
+   ```
+
+### For Linux Ubuntu / Debian
+1. After installing the C++ compiler, open **Terminal**.
+2. Navigate to the folder where the game file `snake_game.cpp` is located.
+3. Compile the program using:
+   ```bash
+   g++ ular.cpp -o snake_game
+   ```
+4. Run the game:
+   ```bash
+   ./snake_game
+   ```
+
+---
+
+Happy coding and have fun with the snake! 🐍🎮
